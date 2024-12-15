@@ -14,7 +14,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Version
+      label: Confirmation
       description: By submitting this issue, you confirm that you are playing on the latest modpack version.
       options:
         - label: I confirm that I am playing on the latest version of the modpack.
