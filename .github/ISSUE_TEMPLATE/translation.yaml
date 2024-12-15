@@ -15,7 +15,7 @@ body:
     id: mod
     attributes:
       label: Mod / GUI
-      description: To which mod or gui does the problem belong
+      description: To which mod or gui does the problem belong?
     validations:
       required: false
   - type: checkboxes
