@@ -1,0 +1,21 @@
+name: Translation
+description: Report missing or incorrect translation
+title: "[Translation]: "
+labels: ["translation"]
+projects: []
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Describe issue
+      description: Describe what is wrong with the translation and suggest how it can be corrected
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      description: By submitting this question, you confirm that you are playing on the latest version of the modpack and the problem is not fixed on it.
+      options:
+        - label: Confirm
+          required: true
