@@ -8,12 +8,14 @@ body:
     id: suggestion
     attributes:
       label: Describe your suggestion
+      description: What exactly do you want to suggest?
     validations:
       required: true
   - type: checkboxes
     id: terms
     attributes:
-      label: Describe your suggestion
+      label: Version
+      description: By submitting this issue, you confirm that you are playing on the latest modpack version.
       options:
         - label: I confirm that I am playing on the latest version of the modpack.
           required: true
