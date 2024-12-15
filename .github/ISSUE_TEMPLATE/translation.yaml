@@ -5,12 +5,19 @@ labels: ["translation"]
 projects: []
 body:
   - type: textarea
-    id: suggestion
+    id: issue
     attributes:
       label: Describe issue
       description: Describe what is wrong with the translation and suggest how it can be corrected
     validations:
       required: true
+  - type: input
+    id: mod
+    attributes:
+      label: Mod / GUI
+      description: To which mod or gui does the problem belong
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
