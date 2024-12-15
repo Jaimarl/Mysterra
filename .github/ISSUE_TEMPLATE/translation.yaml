@@ -7,7 +7,7 @@ body:
   - type: textarea
     id: issue
     attributes:
-      label: Describe issue
+      label: Describe your issue
       description: Describe what is wrong with the translation and suggest how it can be corrected
     validations:
       required: true
