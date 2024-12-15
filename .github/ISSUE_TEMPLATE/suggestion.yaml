@@ -15,7 +15,7 @@ body:
     id: terms
     attributes:
       label: Confirmation
-      description: By submitting this issue, you confirm that you are playing on the latest modpack version.
+      description: By submitting this issue, you confirm that you are playing on the latest version of the modpack and your idea is not implemented on it.
       options:
-        - label: I confirm that I am playing on the latest version of the modpack.
+        - label: Confirm
           required: true
